@@ -3,7 +3,6 @@
 */
 
 // imported Data
-
 const problem1 = require("../problem1");
 const carData = require("../carData");
 

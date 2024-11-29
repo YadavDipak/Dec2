@@ -6,6 +6,7 @@
 const problem1 = require("../problem1");
 const carData = require("../carData");
 
+// Bydefault id is 33
 const result = problem1(carData, (id = 33));
 
 console.log(

@@ -1,3 +1,5 @@
+// Output format ::
+
 /* Then log the car's year, make, and model in the console log in the format of :
 "Car 33 is a *car year goes here* * car make goes here* *car model goes here*
 */

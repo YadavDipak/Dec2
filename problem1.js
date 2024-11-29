@@ -3,7 +3,7 @@
 "Car 33 is a *car year goes here* * car make goes here* *car model goes here*"
  */
 
-function problem1(carData, id) {
+function carDetailsById(carData, id) {
   if (Array.isArray(carData)) {
     for (let index = 0; index < carData.length; index++) {
       if (carData[index].id == id) {
@@ -14,4 +14,5 @@ function problem1(carData, id) {
   return null;
 }
 
-module.exports = problem1;
+// Exported Data
+module.exports = carDetailsById;

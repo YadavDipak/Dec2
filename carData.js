@@ -1,7 +1,3 @@
-// Exported data
-module.exports = inventory ;
-
-
 let inventory = [
   { id: 1, car_make: "Lincoln", car_model: "Navigator", car_year: 2009 },
   { id: 2, car_make: "Mazda", car_model: "Miata MX-5", car_year: 2001 },
@@ -64,3 +60,6 @@ let inventory = [
   { id: 49, car_make: "Chrysler", car_model: "Sebring", car_year: 1996 },
   { id: 50, car_make: "Lincoln", car_model: "Town Car", car_year: 1999 },
 ];
+
+// Exported data
+module.exports = inventory;
